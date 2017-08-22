@@ -1,0 +1,161 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  font-family: "Microsoft Yahei",sans-serif;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-font-smoothing: antialiased;
+  &:focus {
+      outline: none;
+  }
+}
+
+/*
+* 公共样式
+*/
+
+/*img {
+  width: 100%;
+  height: 100%;
+}*/
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+.fillcontain{
+  height: 100%;
+}
+
+:root {
+  --blue: #2383ea;
+}
+
+.avatar-30{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.avatar-50 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.zcard {
+  background: #fff;
+  border: 1px solid #e7eaf1;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 37, 55, .05);
+  box-sizing: border-box;
+}
+
+.card-grey {
+  background: #f5f5f5;
+}
+
+.content-20 {
+  padding: 0 20px;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #3c4950;
+}
+
+.fenge {
+  background-color: #ebebeb;
+  border: none;
+  height: 1px;
+  margin: 0 10px;
+}
+
+.bd-none {
+  border: none;
+}
+
+.fz-12{
+  font-size: 12px;
+}
+.fz-13{
+  font-size: 13px;
+}
+.fz-14{
+  font-size: 14px;
+}
+.fz-15{
+  font-size: 15px;
+}
+.fz-16{
+  font-size: 16px;
+}
+
+.noshow{
+  display: none;
+}
+
+.isshow{
+  display: block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.block {
+  display: block;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.ohidden {
+  overflow: hidden
+}
+
+.clear {
+  clear: both;
+}
+
+.t-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 500
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 500
+} 
+
+.pd-10 {
+  padding: 0 10%;
+}
+
+/* 业务样式 */
